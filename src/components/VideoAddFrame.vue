@@ -8,6 +8,7 @@ import { videoList, videoSelected } from '../store'
 import { interval } from '../utils/string'
 
 const btnClick = async () => {
+  debugger
   const selectedVideo = videoList[videoSelected.value]
   let tmp
   // selectedVideo.frameList = []
